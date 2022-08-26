@@ -1,0 +1,93 @@
+body {
+    background-color:rgb(198, 238, 238);
+    width: 100%;
+    max-width: 1140px;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+.todo__about {
+    width: 100%;
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.todo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.todo__avatar {
+    width: 100%;
+    max-width: 370px;
+    height: 250px;
+    background-image: url(../img/cat.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.todo__forms {
+    width: 100%;
+    max-width: 980px;
+    margin: 30px auto;
+}
+
+.todo__forms {
+    display: flex;
+    gap: 10px;
+}
+
+.todo__input {
+    border: 1;
+    border-radius: 10px;
+    border-color: black;
+    padding: 5px;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.todo__btn_delete {
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/delete.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 0;
+    background-color: transparent;
+    padding: 0;
+}
+
+.todo__btn_complete {
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/complete.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 0;
+    background-color: transparent;
+    padding: 0;
+}
+
+.todo__btn_confirm {
+    width: 100%;
+    max-width: 90px;
+    border: 1;
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 0;
+}
+
+.todo__lists {
+    width: 100%;
+    max-width: 980px;
+    margin: 30px auto;
+}
+
+.todo__list {
+    width: 100%;
+    max-width: 370px;
+}
